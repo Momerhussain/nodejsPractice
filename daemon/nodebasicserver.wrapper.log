@@ -1,0 +1,64 @@
+2021-08-23 15:50:03 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Lenovo E560\Desktop\NodeJs\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Lenovo E560\Desktop\NodeJs\index.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-08-23 15:50:03 - Started 1596
+2021-08-23 17:51:23 - Stopping nodebasicserver.exe
+2021-08-23 17:51:23 - ProcessKill 1596
+2021-08-23 17:51:24 - Found child process: 16988 Name: conhost.exe
+2021-08-23 17:51:24 - Found child process: 14856 Name: node.exe
+2021-08-23 17:51:24 - Stopping process 16988
+2021-08-23 17:51:24 - Send SIGINT 16988
+2021-08-23 17:51:24 - SIGINT to 16988 failed - Killing as fallback
+2021-08-23 17:51:24 - Stopping process 14856
+2021-08-23 17:51:24 - Send SIGINT 14856
+2021-08-23 17:51:24 - SIGINT to 14856 failed - Killing as fallback
+2021-08-23 17:51:24 - Stopping process 1596
+2021-08-23 17:51:24 - Send SIGINT 1596
+2021-08-23 17:51:24 - SIGINT to 1596 failed - Killing as fallback
+2021-08-23 17:51:24 - Finished nodebasicserver.exe
+2021-08-27 18:07:26 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Lenovo E560\Desktop\NodeJs\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Lenovo E560\Desktop\NodeJs\index.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-08-27 18:07:26 - Started 4472
+2021-08-27 18:09:07 - Stopping nodebasicserver.exe
+2021-08-27 18:09:07 - ProcessKill 4472
+2021-08-27 18:09:07 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-08-28 09:32:25 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Lenovo E560\Desktop\NodeJs\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Lenovo E560\Desktop\NodeJs\index.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-08-28 09:32:25 - Started 5148
+2021-08-28 12:28:07 - Stopping nodebasicserver.exe
+2021-08-28 12:28:07 - ProcessKill 5148
+2021-08-28 12:28:07 - Found child process: 5172 Name: conhost.exe
+2021-08-28 12:28:07 - Found child process: 5568 Name: node.exe
+2021-08-28 12:28:07 - Stopping process 5172
+2021-08-28 12:28:07 - Send SIGINT 5172
+2021-08-28 12:28:07 - SIGINT to 5172 failed - Killing as fallback
+2021-08-28 12:28:07 - Stopping process 5568
+2021-08-28 12:28:07 - Send SIGINT 5568
+2021-08-28 12:28:07 - SIGINT to 5568 failed - Killing as fallback
+2021-08-28 12:28:07 - Stopping process 5148
+2021-08-28 12:28:07 - Send SIGINT 5148
+2021-08-28 12:28:07 - SIGINT to 5148 failed - Killing as fallback
+2021-08-28 12:28:07 - Finished nodebasicserver.exe
+2021-08-29 22:42:11 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Lenovo E560\Desktop\NodeJs\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Lenovo E560\Desktop\NodeJs\index.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-08-29 22:42:11 - Started 12168
+2021-08-30 00:11:13 - Stopping nodebasicserver.exe
+2021-08-30 00:11:13 - ProcessKill 12168
+2021-08-30 00:11:13 - Found child process: 17956 Name: conhost.exe
+2021-08-30 00:11:13 - Found child process: 13660 Name: node.exe
+2021-08-30 00:11:14 - Stopping process 17956
+2021-08-30 00:11:14 - Send SIGINT 17956
+2021-08-30 00:11:14 - SIGINT to 17956 failed - Killing as fallback
+2021-08-30 00:11:14 - Stopping process 13660
+2021-08-30 00:11:14 - Send SIGINT 13660
+2021-08-30 00:11:14 - SIGINT to 13660 failed - Killing as fallback
+2021-08-30 00:11:14 - Stopping process 12168
+2021-08-30 00:11:14 - Send SIGINT 12168
+2021-08-30 00:11:14 - SIGINT to 12168 failed - Killing as fallback
+2021-08-30 00:11:14 - Finished nodebasicserver.exe
