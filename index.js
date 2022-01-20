@@ -4,7 +4,7 @@ var d=new Date();
 console.log(d);
 
 //////////////s  m  h  dom m dow
-cron.schedule('* * * * *', () => {
+cron.schedule('* * * * * *', () => {
   console.log('Running a job at 10:45 at America/Sao_Paulo timezone');
   console.log(d);
   getOrders();
