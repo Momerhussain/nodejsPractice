@@ -427,34 +427,50 @@
 // }
 // recursive('omer',4)
 
-s="6*10/2+3-1";
-a=[]
-console.log(s.length);
-for(i=0;i<s.length;i++){
-    // console.log(s.charAt(i));
+// s="6*10/2+3-1";
+// a=[]
+// console.log(s.length);
+// for(i=0;i<s.length;i++){
+//     // console.log(s.charAt(i));
     
-    a.push(s.charAt(i))
+//     a.push(s.charAt(i))
 
 
-        if(a[i]==='*'){
-            var b=a[i-1];
-            i+2;
-            // i++;
-            c=a[i]
-            console.log(b,c,"mult");
-        }
-        var c=a[i+1];
-        console.log(c);
-        // if(a[i]==='/'){
+//         if(a[i]==='*'){
+//             var b=a[i-1];
+//             i+2;
+//             // i++;
+//             c=a[i]
+//             console.log(b,c,"mult");
+//         }
+//         var c=a[i+1];
+//         console.log(c);
+//         // if(a[i]==='/'){
 
-        //     console.log("div");
-        // }
-        // if(a[i]==='+'){
-        //     console.log("add");
-        // }
-        // if(a[i]==='-'){
-        //     console.log("sub");
-        // }
+//         //     console.log("div");
+//         // }
+//         // if(a[i]==='+'){
+//         //     console.log("add");
+//         // }
+//         // if(a[i]==='-'){
+//         //     console.log("sub");
+//         // }
+    
+// }
+// console.log(a);
+
+// positive value
+
+// var first=-5
+// console.log((first)*(-1));
+
+// find missing number in array
+arr=[2,4,1,7,6,5]
+let n=arr.length;
+let sum=((n+1)*(n+2))/2;
+for(let i=0;i<n;i++){
+    sum-=arr[i];
     
 }
-// console.log(a);
+console.log(sum);
+
